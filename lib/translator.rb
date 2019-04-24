@@ -18,7 +18,7 @@ def get_japanese_emoticon(file, emoticon)
   if emoticons_library["get_emoticon"][emoticon] == nil
       return "Sorry, I don't know that emoticon"
     else
-      
+      emoticons_library["get_emoticon"][emoticon]
   end
 end
 
