@@ -20,6 +20,7 @@ def get_japanese_emoticon(file, emoticon)
       puts japanese
     else
       puts "Sorry, I don't know that emoticon"
+    end
   end
 end
 
