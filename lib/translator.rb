@@ -18,6 +18,8 @@ def get_japanese_emoticon(file, emoticon)
   emoticons_library["get_emoticon"].map do |english, japanese|
     if english == emoticon 
       puts japanese
+    else
+      puts "Sorry, I don't know that emoticon"
   end
 end
 
