@@ -16,6 +16,7 @@ end
 def get_japanese_emoticon(file, emoticon)
   emoticons_library = load_library(file)
   if emoticons_library["get_emoticon"].map do |english, japanese|
+    if 
   end
 end
 
