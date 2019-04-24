@@ -14,11 +14,8 @@ def load_library(file)
 end
 
 def get_japanese_emoticon(file, emoticon)
-  library = load_library(file)
-  if library["get_emoticon"][emoticon] == nil 
-    return "Sorry, I don't know that emoticon"
-  else 
-    library["get_emoticon"][emoticon]
+  emoticons_library = load_library(file)
+  if emoticons_library["get_emoticon"].map do |key, value|
   end
 end
 
